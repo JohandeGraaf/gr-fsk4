@@ -16,6 +16,6 @@ $ make           # And start building (should work after the previous section)
 $ make install   # Install blocks in GNU Radio
 ```
 
-More info on installing Out-of-tree modules: https://wiki.gnuradio.org/index.php/OutOfTreeModules
+More info about out-of-tree modules: https://wiki.gnuradio.org/index.php/OutOfTreeModules
 
-For more info about this module see: http://www.qsl.net/kb9mwr/projects/dv/apco25/GnuradioFourLevelFSK.pdf
+More documentation: http://www.qsl.net/kb9mwr/projects/dv/apco25/GnuradioFourLevelFSK.pdf
