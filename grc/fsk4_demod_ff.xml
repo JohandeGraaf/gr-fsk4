@@ -1,0 +1,30 @@
+<block>
+  <name>Demod ff</name>
+  <key>fsk4_demod_ff</key>
+  <category>FSK4</category>
+  <import>import fsk4</import>
+  <make>fsk4.demod_ff($queue, $sample_rate, $symbol_rate)</make>
+  <param>
+    <name>Queue</name>
+    <key>queue</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Sample_rate</name>
+    <key>sample_rate</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Symbol_rate</name>
+    <key>symbol_rate</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
